@@ -1,0 +1,60 @@
+﻿/* Notifications 
+    ---------*/
+.noti {
+    position:fixed;
+    top:20px;
+    right:20px;
+    font-family:Calibri,sans-serif;
+
+}
+
+.noti .fa {
+    cursor:pointer; 
+    
+}
+.noti span {
+    font-weight:bold;
+    font-size:1.2em;
+}
+.noti p {
+    font-weight:bold;
+
+}
+/* Notification Colors
+    ---*/
+
+.n-s, .n-e, .n-w, .n-i {
+    color:#ffffff;
+    border-radius:4px ;
+    min-height:80px;
+    padding:10px;
+    width:300px;
+    box-shadow:2px 2px 2px 2px #232323;
+    margin:5px auto;
+}
+
+/*error*/
+.n-e {
+    background-color: #d33232;
+}
+/*warning*/
+.n-w {
+    background-color:#f14545;
+}
+/*success*/
+.n-s {
+    background-color: #20762b;
+}
+/*info*/
+.n-i {
+    background-color: #ff006e;
+}
+/* Floating
+    -----*/
+
+.f-l {
+    float: left;
+}
+.f-r {
+    float: right;
+}
